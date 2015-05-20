@@ -742,6 +742,15 @@ body {
 	font-size:18px;
 }
 
+#recommendation1 {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:40px;
+	margin-top:435px;
+	font-size:18px;
+}
+
 #recommendationmenu {
 	color:white;
 	font-family:"Belleza",Arial,sans-serif;
