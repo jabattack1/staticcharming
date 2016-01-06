@@ -474,7 +474,7 @@ body {
 }
 
 #address{
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	/*text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;*/
 }
 
 #nails {
