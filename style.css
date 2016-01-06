@@ -340,8 +340,56 @@ body {
 
 
 
+#crossfade2 > p { 
+   width: 230px;
+	height: 413px;
+    position: absolute;
+    margin-top: 210px;
+	margin-left:15px;
+    opacity: 0;
+    z-index: -3;
+    font-family:"Belleza",Arial,sans-serif;
+    color:#CEAC00;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 40s linear infinite 0s;
+    -moz-animation: imageAnimation 40s linear infinite 0s;
+    -o-animation: imageAnimation 40s linear infinite 0s;
+    -ms-animation: imageAnimation 40s linear infinite 0s;
+    animation: imageAnimation 40s linear infinite 0s; 
+}
 
-
+#crossfade2 > p:nth-child(2)  { 
+    /*background-image: url(../images/2.jpg);*/
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s; 
+}
+#crossfade2 > p:nth-child(3) { 
+    /*background-image: url(../images/3.jpg);*/
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+#crossfade2 > p:nth-child(4) { 
+    /*background-image: url(../images/4.jpg);*/
+    -webkit-animation-delay: 27s;
+    -moz-animation-delay: 27s;
+    -o-animation-delay: 27s;
+    -ms-animation-delay: 27s;
+    animation-delay: 27s; 
+}
+#crossfade2 > p:nth-child(5) { 
+    /*background-image: url(../images/5.jpg);*/
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+}   
 
 
 .navigation {
@@ -638,7 +686,7 @@ body {
 	margin-left:80px;
 	margin-top:70px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #manititle {
@@ -653,7 +701,7 @@ body {
 	margin-left:600px;
 	margin-top:100px;
 	font-size:17px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #manititle_1 {
@@ -668,7 +716,7 @@ body {
 	margin-left:355px;
 	margin-top:70px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #pedititle {
@@ -683,7 +731,7 @@ body {
 	margin-left:600px;
 	margin-top:100px;
 	font-size:17px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #pedititle_1 {
@@ -698,7 +746,7 @@ body {
 	margin-left:670px;
 	margin-top:70px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #massagetitle {
@@ -713,7 +761,7 @@ body {
 	margin-left:600px;
 	margin-top:100px;
 	font-size:17px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #massagetitle_1 {
@@ -728,7 +776,7 @@ body {
 	margin-left:80px;
 	margin-top:135px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #contact_address {
@@ -738,7 +786,7 @@ body {
 	margin-left:80px;
 	margin-top:50px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #schedule {
@@ -748,7 +796,7 @@ body {
 	margin-left:80px;
 	margin-top:200px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #time{
@@ -758,7 +806,7 @@ body {
 	margin-left:200px;
 	margin-top:200px;
 	font-size:20px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #map {
@@ -767,7 +815,7 @@ body {
 	margin-top:40px;
 	height:415px;
 	width:500px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #recommendation {
@@ -777,7 +825,7 @@ body {
 	margin-left:20px;
 	margin-top:435px;
 	font-size:18px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #recommendation1 {
@@ -787,7 +835,7 @@ body {
 	margin-left:40px;
 	margin-top:435px;
 	font-size:18px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #recommendationmenu {
@@ -797,7 +845,7 @@ body {
 	margin-left:80px;
 	margin-top:450px;
 	font-size:18px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #aboutstuff {
@@ -808,7 +856,7 @@ body {
 	margin-top:40px;
 	font-size:18px;
 	width:900px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #comingsoon {
@@ -819,7 +867,7 @@ body {
 	margin-top:40px;
 	font-size:18px;
 	width:900px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #manimani {
@@ -830,7 +878,7 @@ body {
 	margin-top:100px;
 	font-size:18px;
 	width:400px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #pedipedi {
@@ -841,7 +889,7 @@ body {
 	margin-top:100px;
 	font-size:18px;
 	width:400px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #masmas {
@@ -852,7 +900,7 @@ body {
 	margin-top:100px;
 	font-size:18px;
 	width:400px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #review1 {
