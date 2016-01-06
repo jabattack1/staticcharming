@@ -473,6 +473,10 @@ body {
 	width:15px;
 }
 
+#address{
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 #nails {
 	pointer-events: none;
 	margin-top:3px;
