@@ -797,6 +797,7 @@ body {
 	margin-top:40px;
 	font-size:18px;
 	width:900px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #comingsoon {
