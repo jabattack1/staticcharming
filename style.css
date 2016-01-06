@@ -638,6 +638,7 @@ body {
 	margin-left:80px;
 	margin-top:70px;
 	font-size:20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #manititle {
@@ -667,6 +668,7 @@ body {
 	margin-left:355px;
 	margin-top:70px;
 	font-size:20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #pedititle {
@@ -696,6 +698,7 @@ body {
 	margin-left:670px;
 	margin-top:70px;
 	font-size:20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #massagetitle {
@@ -778,6 +781,7 @@ body {
 	margin-left:40px;
 	margin-top:435px;
 	font-size:18px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #recommendationmenu {
@@ -787,6 +791,7 @@ body {
 	margin-left:80px;
 	margin-top:450px;
 	font-size:18px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #aboutstuff {
